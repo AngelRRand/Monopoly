@@ -1,0 +1,7 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "include": [
+    "src/**/*",           // Asume que tu código está en una carpeta llamada 'src'
+    "declarations.d.ts"   // Añade el archivo de declaración aquí
+  ]
+}
